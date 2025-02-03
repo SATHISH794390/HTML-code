@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">FIRSTNAME</label>
+        <input type="text"name="fname"id="fname" required placeholder="fname"> <br><br>
+        <label for="lname">LASTNAME</label>
+        <input type="text"required placeholder="lkdelikk"><br><br>
+        <label for="email">EMAIL</label>
+        <input type="EMAIL" name="email" id="email"required placeholder="qwert"><br><br>
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password"id="password"required><br><br>
+        <label for="cfm password">CONFIRM PASSWORD</label>
+        <input type="password" name="cfm password" id="cfm password" required> <br> <br></label>
+        <label for="gender">GENDER :</label>
+        <input type="radio" name="gender" id="gender">MALE
+        <input type="radio" name="gender" id="gender">FEMALE
+        <input type="radio" name="gender" id="gender">OTHERS <br><br>
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" name="dob" id="dob"><br><br>
+        <label for="edu" >QULIFICATION</label>
+        <select name="qulification" id="edu">
+            <option value="BE">BE</option>
+            <option value="BTECH">BTECH</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="MTECH">MTECH</option>
+            <option value="ME">ME</option>
+            </select><br><br>
+            <label for="yop">YEAR OF PASSOUT:</label>
+            <input type="number" min="2015" max="2025" name="yop" id="yop"><br><br>
+            <label for="place">PLACE: </label>
+            <input list="city" name="place">
+            <datalist id="city">
+            <option value="MANGLORE">MANGLORE</option>
+            <option value="BANGLORE">BANGLORE</option>
+            <option value="HYDERABAD">HYDERABAD</option>
+            <option value="CHENNAI">CHENNAI</option>
+            <option value="PUNE">PUNE</option>
+            </datalist><br><br>
+
+
+
+
+
+        <input type="submit">
+    </form>
+</body>
+</html>
